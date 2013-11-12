@@ -5,12 +5,12 @@ $(document).ready(function() {
 	});
 
 	function hideSplash() {
-		$.mobile.changePage("#home", "fade");
+		$.mobile.changePage("menupage.html", "fade");
 	}
 
 
 	$('#icnCategory').click(function() {
-		$('#slide_category').show();
+		$('#slide_category').toggle();
 	})
 	$('#content').click(function() {
 		$('#slide_category').hide();
