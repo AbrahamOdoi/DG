@@ -44,7 +44,7 @@
 }
 
 .head {
-	background: gray;
+	background: white;
 	/*background: #DF0101;*/
 	height: auto;
 	padding-top: 10px;
@@ -101,6 +101,11 @@
 .frmContentSear {
 	display: none;
 }
+
+.input_search{
+	background: white;
+}
+
 .div_news {
 	height: 100px;
 	max-height: 100px;
